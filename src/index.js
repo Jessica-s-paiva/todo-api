@@ -17,8 +17,8 @@ task(app, bd);
 const tarefa = new Task("teste", "teste de descrição", "em andamento", "22/06/2022");
 const usuario = new User("Maria Joana", "teste@teste.com", "12345");
 
-app.listen(3000, ()=>{
+app.listen(3033, ()=>{
     console.log(tarefa);
     console.log(usuario);
-    console.log(chalk.green('Servidor rodando na porta 3000'));
+    console.log(chalk.green('Servidor rodando na porta 3033'));
 })
