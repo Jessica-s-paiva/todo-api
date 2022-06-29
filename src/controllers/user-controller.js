@@ -42,7 +42,5 @@ export function user(app, bd){
               res.json({"Dado Alterado": DadoNovo, "Dados Antigos:": DadoAntigo})    
           }
       }
-      
-      // res.send(`{"mensagem" : "${param} atualizado"}`)
   })
 }
