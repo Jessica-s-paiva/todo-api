@@ -1,4 +1,4 @@
-export class Task{
+export class TaskModel{
     constructor(title,description, status, date){
         this.title = title,
         this.description = description,
